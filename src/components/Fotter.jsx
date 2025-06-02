@@ -4,34 +4,34 @@ export default function Footer() {
       <div className="container mx-auto px-6 md:flex md:justify-between">
         
         <div className="mb-8 md:mb-0 md:w-1/3">
-          <h2 className="text-2xl font-bold text-white mb-3">SizningSayt</h2>
+          <h2 className="text-2xl font-bold text-white mb-3">ВашСайт</h2>
           <p className="text-gray-400 max-w-xs">
-            Bizning maqsadimiz eng yaxshi xizmatlarni taqdim etish va mijozlarimizni qoniqtirishdir.
+            Наша цель — предоставлять лучшие услуги и обеспечивать удовлетворение наших клиентов.
           </p>
         </div>
         
         <div className="grid grid-cols-2 gap-8 md:grid-cols-3 md:w-2/3">
           <div>
-            <h3 className="text-white font-semibold mb-4">Sayt bo'limlari</h3>
+            <h3 className="text-white font-semibold mb-4">Разделы сайта</h3>
             <ul>
-              <li className="mb-2 hover:text-white cursor-pointer">Bosh sahifa</li>
-              <li className="mb-2 hover:text-white cursor-pointer">Xizmatlar</li>
-              <li className="mb-2 hover:text-white cursor-pointer">Loyiha</li>
-              <li className="mb-2 hover:text-white cursor-pointer">Blog</li>
+              <li className="mb-2 hover:text-white cursor-pointer">Главная</li>
+              <li className="mb-2 hover:text-white cursor-pointer">Услуги</li>
+              <li className="mb-2 hover:text-white cursor-pointer">Проекты</li>
+              <li className="mb-2 hover:text-white cursor-pointer">Блог</li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-white font-semibold mb-4">Biz bilan bog'lanish</h3>
+            <h3 className="text-white font-semibold mb-4">Контакты</h3>
             <ul>
-              <li className="mb-2 hover:text-white cursor-pointer">Telefon: +998 90 123 45 67</li>
-              <li className="mb-2 hover:text-white cursor-pointer">Email: info@sizninsayt.uz</li>
-              <li className="mb-2 hover:text-white cursor-pointer">Manzil: Toshkent, O'zbekiston</li>
+              <li className="mb-2 hover:text-white cursor-pointer">Телефон: +998 90 123 45 67</li>
+              <li className="mb-2 hover:text-white cursor-pointer">Email: info@вашсайт.uz</li>
+              <li className="mb-2 hover:text-white cursor-pointer">Адрес: Ташкент, Узбекистан</li>
             </ul>
           </div>
           
           <div>
-            <h3 className="text-white font-semibold mb-4">Ijtimoiy tarmoqlar</h3>
+            <h3 className="text-white font-semibold mb-4">Социальные сети</h3>
             <ul className="flex space-x-4">
               <li>
                 <a href="#" aria-label="Facebook" className="hover:text-white">
@@ -54,7 +54,7 @@ export default function Footer() {
       </div>
 
       <div className="mt-10 border-t border-gray-800 pt-6 text-center text-gray-500 text-sm">
-        &copy; 2025 SizningSayt. Barcha huquqlar himoyalangan.
+        &copy; 2025 ВашСайт. Все права защищены.
       </div>
     </footer>
   );
