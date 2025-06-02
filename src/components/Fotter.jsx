@@ -1,10 +1,8 @@
-// Footer.jsx
 export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10">
       <div className="container mx-auto px-6 md:flex md:justify-between">
         
-        {/* Logo va qisqacha info */}
         <div className="mb-8 md:mb-0 md:w-1/3">
           <h2 className="text-2xl font-bold text-white mb-3">SizningSayt</h2>
           <p className="text-gray-400 max-w-xs">
@@ -12,7 +10,6 @@ export default function Footer() {
           </p>
         </div>
         
-        {/* Menu bo'limlari */}
         <div className="grid grid-cols-2 gap-8 md:grid-cols-3 md:w-2/3">
           <div>
             <h3 className="text-white font-semibold mb-4">Sayt bo'limlari</h3>

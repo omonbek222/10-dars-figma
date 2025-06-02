@@ -13,7 +13,6 @@ function BenefitsSection() {
     <section className="bg-white px-6 md:px-10 py-14 text-gray-800">
       <div className="max-w-7xl mx-auto space-y-16">
         
-        {/* Advantages */}
         <div>
           <h2 className="text-xl md:text-2xl font-bold text-center mb-6">
             Какие еще выгоды от работы с нами?
@@ -28,7 +27,6 @@ function BenefitsSection() {
           </div>
         </div>
 
-        {/* Partners */}
         <div className="text-center">
           <p className="text-sm mb-4">
             Нам доверяют и работают с нами такие производственные и строительные компании, как:
@@ -41,7 +39,6 @@ function BenefitsSection() {
           </div>
         </div>
 
-        {/* Certificates */}
         <div className="bg-gray-100 p-6 rounded">
           <h3 className="text-center text-sm font-semibold mb-4">
             Производимая продукция соответствует регламентам ГОСТ, ОСТ, ТУ и международным стандартам

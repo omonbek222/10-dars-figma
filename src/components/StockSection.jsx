@@ -13,7 +13,6 @@ function StockSection() {
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Mahsulotlar ro'yxati */}
           <div className="space-y-6">
             <div className="flex items-center gap-4">
               <img src={metal1} alt="Штрипс" className="w-20 h-20 object-contain" />
@@ -33,7 +32,6 @@ function StockSection() {
             </div>
           </div>
 
-          {/* Sklad rasmi va matn */}
           <div className="relative">
             <img src={skladImage} alt="Склад" className="w-full rounded shadow" />
             <p className="text-xs text-gray-700 mt-2">

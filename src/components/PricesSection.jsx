@@ -4,13 +4,11 @@ function PricesSection() {
   return (
     <section className="bg-white w-full px-6 md:px-10 py-12">
       <div className="max-w-6xl mx-auto">
-        {/* Sarlavha */}
         <h2 className="text-xl md:text-2xl font-bold text-blue-900 mb-2">
           Выгодные цены на <br className="hidden md:block" />
           металлопрокат в Новосибирске
         </h2>
 
-        {/* Taglavha */}
         <p className="text-sm text-gray-700 mb-6">
           Обратитесь к менеджеру и он отправит вам цены на нужные позиции
         </p>
@@ -19,7 +17,6 @@ function PricesSection() {
           Посмотрите какие товарные группы есть в наличии в Новосибирске
         </p>
 
-        {/* Kategoriyalar */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4 border border-gray-300 rounded p-4 text-center text-xs text-gray-700 mb-8">
           <div className="hover:underline cursor-pointer">Штрипс, лента оцинкованная</div>
           <div className="hover:underline cursor-pointer">Сетка</div>
@@ -29,7 +26,6 @@ function PricesSection() {
           <div className="hover:underline cursor-pointer">Индивидуально под заказ</div>
         </div>
 
-        {/* Mahsulot bloki */}
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <img
             src={metal}
